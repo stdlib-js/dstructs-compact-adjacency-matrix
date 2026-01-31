@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import CompactAdjacencyMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/dstructs-compact-adjacency-matrix@deno/mod.js';
+import CompactAdjacencyMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/dstructs-compact-adjacency-matrix@v0.1.0-deno/mod.js';
 ```
 
 #### CompactAdjacencyMatrix( N )
@@ -74,7 +74,7 @@ adj.addEdge( 2, 3 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import CompactAdjacencyMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/dstructs-compact-adjacency-matrix@deno/mod.js';
+import CompactAdjacencyMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/dstructs-compact-adjacency-matrix@v0.1.0-deno/mod.js';
 
 // Create a new adjacency matrix:
 var adj = new CompactAdjacencyMatrix( 4 );
