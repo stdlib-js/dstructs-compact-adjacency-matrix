@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import CompactAdjacencyMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/dstructs-compact-adjacency-matrix@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/dstructs-compact-adjacency-matrix/tags). For example,
+
+```javascript
 import CompactAdjacencyMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/dstructs-compact-adjacency-matrix@v0.1.0-deno/mod.js';
 ```
 
@@ -74,7 +79,7 @@ adj.addEdge( 2, 3 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import CompactAdjacencyMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/dstructs-compact-adjacency-matrix@v0.1.0-deno/mod.js';
+import CompactAdjacencyMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/dstructs-compact-adjacency-matrix@deno/mod.js';
 
 // Create a new adjacency matrix:
 var adj = new CompactAdjacencyMatrix( 4 );
